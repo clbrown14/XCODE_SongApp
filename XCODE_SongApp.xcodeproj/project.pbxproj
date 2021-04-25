@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFC79F8E2635DE7E00198DD2 /* XCODE_SongAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC79F7B2635DE7D00198DD2 /* XCODE_SongAppApp.swift */; };
+		CFC79F8F2635DE7E00198DD2 /* XCODE_SongAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC79F7B2635DE7D00198DD2 /* XCODE_SongAppApp.swift */; };
+		CFC79F902635DE7E00198DD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC79F7C2635DE7D00198DD2 /* ContentView.swift */; };
+		CFC79F912635DE7E00198DD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC79F7C2635DE7D00198DD2 /* ContentView.swift */; };
+		CFC79F922635DE7E00198DD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC79F7D2635DE7E00198DD2 /* Assets.xcassets */; };
+		CFC79F932635DE7E00198DD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC79F7D2635DE7E00198DD2 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CFC79F7B2635DE7D00198DD2 /* XCODE_SongAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCODE_SongAppApp.swift; sourceTree = "<group>"; };
+		CFC79F7C2635DE7D00198DD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFC79F7D2635DE7E00198DD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFC79F822635DE7E00198DD2 /* XCODE_SongApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCODE_SongApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC79F852635DE7E00198DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC79F8A2635DE7E00198DD2 /* XCODE_SongApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCODE_SongApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC79F8C2635DE7E00198DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC79F8D2635DE7E00198DD2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFC79F7F2635DE7E00198DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC79F872635DE7E00198DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFC79F752635DE7D00198DD2 = {
+			isa = PBXGroup;
+			children = (
+				CFC79F7A2635DE7D00198DD2 /* Shared */,
+				CFC79F842635DE7E00198DD2 /* iOS */,
+				CFC79F8B2635DE7E00198DD2 /* macOS */,
+				CFC79F832635DE7E00198DD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFC79F7A2635DE7D00198DD2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CFC79F7B2635DE7D00198DD2 /* XCODE_SongAppApp.swift */,
+				CFC79F7C2635DE7D00198DD2 /* ContentView.swift */,
+				CFC79F7D2635DE7E00198DD2 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CFC79F832635DE7E00198DD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFC79F822635DE7E00198DD2 /* XCODE_SongApp.app */,
+				CFC79F8A2635DE7E00198DD2 /* XCODE_SongApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFC79F842635DE7E00198DD2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CFC79F852635DE7E00198DD2 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		CFC79F8B2635DE7E00198DD2 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				CFC79F8C2635DE7E00198DD2 /* Info.plist */,
+				CFC79F8D2635DE7E00198DD2 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFC79F812635DE7E00198DD2 /* XCODE_SongApp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC79F962635DE7E00198DD2 /* Build configuration list for PBXNativeTarget "XCODE_SongApp (iOS)" */;
+			buildPhases = (
+				CFC79F7E2635DE7E00198DD2 /* Sources */,
+				CFC79F7F2635DE7E00198DD2 /* Frameworks */,
+				CFC79F802635DE7E00198DD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XCODE_SongApp (iOS)";
+			productName = "XCODE_SongApp (iOS)";
+			productReference = CFC79F822635DE7E00198DD2 /* XCODE_SongApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFC79F892635DE7E00198DD2 /* XCODE_SongApp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC79F992635DE7E00198DD2 /* Build configuration list for PBXNativeTarget "XCODE_SongApp (macOS)" */;
+			buildPhases = (
+				CFC79F862635DE7E00198DD2 /* Sources */,
+				CFC79F872635DE7E00198DD2 /* Frameworks */,
+				CFC79F882635DE7E00198DD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XCODE_SongApp (macOS)";
+			productName = "XCODE_SongApp (macOS)";
+			productReference = CFC79F8A2635DE7E00198DD2 /* XCODE_SongApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFC79F762635DE7D00198DD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CFC79F812635DE7E00198DD2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CFC79F892635DE7E00198DD2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CFC79F792635DE7D00198DD2 /* Build configuration list for PBXProject "XCODE_SongApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFC79F752635DE7D00198DD2;
+			productRefGroup = CFC79F832635DE7E00198DD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFC79F812635DE7E00198DD2 /* XCODE_SongApp (iOS) */,
+				CFC79F892635DE7E00198DD2 /* XCODE_SongApp (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFC79F802635DE7E00198DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC79F922635DE7E00198DD2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC79F882635DE7E00198DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC79F932635DE7E00198DD2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFC79F7E2635DE7E00198DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC79F902635DE7E00198DD2 /* ContentView.swift in Sources */,
+				CFC79F8E2635DE7E00198DD2 /* XCODE_SongAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC79F862635DE7E00198DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC79F912635DE7E00198DD2 /* ContentView.swift in Sources */,
+				CFC79F8F2635DE7E00198DD2 /* XCODE_SongAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFC79F942635DE7E00198DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFC79F952635DE7E00198DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CFC79F972635DE7E00198DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MMKS696W56;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "soloProjects.XCODE-SongApp";
+				PRODUCT_NAME = XCODE_SongApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFC79F982635DE7E00198DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MMKS696W56;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "soloProjects.XCODE-SongApp";
+				PRODUCT_NAME = XCODE_SongApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFC79F9A2635DE7E00198DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MMKS696W56;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "soloProjects.XCODE-SongApp";
+				PRODUCT_NAME = XCODE_SongApp;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CFC79F9B2635DE7E00198DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MMKS696W56;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "soloProjects.XCODE-SongApp";
+				PRODUCT_NAME = XCODE_SongApp;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFC79F792635DE7D00198DD2 /* Build configuration list for PBXProject "XCODE_SongApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC79F942635DE7E00198DD2 /* Debug */,
+				CFC79F952635DE7E00198DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC79F962635DE7E00198DD2 /* Build configuration list for PBXNativeTarget "XCODE_SongApp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC79F972635DE7E00198DD2 /* Debug */,
+				CFC79F982635DE7E00198DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC79F992635DE7E00198DD2 /* Build configuration list for PBXNativeTarget "XCODE_SongApp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC79F9A2635DE7E00198DD2 /* Debug */,
+				CFC79F9B2635DE7E00198DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFC79F762635DE7D00198DD2 /* Project object */;
+}
