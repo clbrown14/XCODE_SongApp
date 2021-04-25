@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+   
+//Generates view seen in the Preview/Canvas
+//All UI elements need to be contained in this area
         Text("Hello, world! Test Change")
-            .padding()
+            .padding().background(Color.green).shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/, radius: 65, x: 21.5, y: 15.1)
+        
     }
 }
 
