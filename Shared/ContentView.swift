@@ -1,7 +1,7 @@
 //
 //  ContentView.swift
 //  Shared
-// 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
+// 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
 //  Created by Carl Brown on 4/25/21.
 //
 
@@ -11,9 +11,11 @@ struct ContentView: View {
     var body: some View {
    
 //Generates view seen in the Preview/Canvas
-//All UI elements need to be contained in this area
-        Text("Hello, world! Test Change")
-            .padding().background(Color.green).shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/, radius: 65, x: 21.5, y: 15.1)
+//All UI elements need to be contained in this area.
+        Image("logo")
+            .resizable()      .aspectRatio(contentMode: .fit)
+        
+        
         
     }
 }
