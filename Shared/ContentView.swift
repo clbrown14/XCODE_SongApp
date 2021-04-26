@@ -12,9 +12,25 @@ struct ContentView: View {
    
 //Generates view seen in the Preview/Canvas
 //All UI elements need to be contained in this area.
-        Image("logo")
-            .resizable()      .aspectRatio(contentMode: .fit)
         
+        VStack {
+            
+            Spacer()
+            
+            Image("logo")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            
+            Spacer()
+            
+            VStack{
+                Text("The war of the Joshes")
+                    .font(.title)
+                    .fontWeight(.bold)
+                Text("Final Battle")
+            }
+
+        }
         
         
     }
